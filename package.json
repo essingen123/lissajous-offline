@@ -1,0 +1,30 @@
+{
+  "name": "lissajous",
+  "version": "1.0.0",
+  "description": "An offline version of lissajous",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+     "package": "electron-packager . \"lissajous\" --platform=darwin --arch=x64 --out ./dist --version 0.35.1 --overwrite --icon=./images/app-iconnn.icns"
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/atom/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/atom/electron-quick-start#readme",
+  "devDependencies": {
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "^0.35.0"
+  }
+}
